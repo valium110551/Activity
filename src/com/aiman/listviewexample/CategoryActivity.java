@@ -79,6 +79,7 @@ public class CategoryActivity extends ListActivity {
 				i.putExtra(TAG_ID, category_id);
 
 				startActivity(i);
+				overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
 			}
 		});
 		
